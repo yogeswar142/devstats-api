@@ -1,0 +1,37 @@
+{
+  "name": "devstats-api",
+  "version": "1.0.0",
+  "description": "Backend stats aggregation API for yogeswar.me",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx watch src/server.ts",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "typecheck": "npx tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "fastify",
+    "typescript",
+    "github",
+    "leetcode",
+    "portfolio",
+    "stats"
+  ],
+  "author": "Yogeswar",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.2",
+    "vitest": "^4.1.11"
+  }
+}

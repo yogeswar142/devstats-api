@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build & Compilation Outputs
+dist/
+
+# Environment Variables
+.env
+.env*.local
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing & Coverage
+coverage/
+.vitest/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
